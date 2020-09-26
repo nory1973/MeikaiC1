@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	printf("こんにちは。私の名前は柴田望洋です。\n");
+	printf("こんにちは。私の名前は柴田望洋です。\a\n");
 
 	return (0);
 }
