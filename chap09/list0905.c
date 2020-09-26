@@ -1,0 +1,18 @@
+/*
+	•¶š—ñ"12345"‚ğ‘®‰»‚µ‚Ä•\¦
+*/
+
+#include  <stdio.h>
+
+int main(void)
+{
+	char  str[] = "12345";
+
+	printf("%s\n",	 str);		/* ‚»‚Ì‚Ü‚Ü */
+	printf("%3s\n",	 str);		/* Å’á‚RŒ… */
+	printf("%.3s\n",	 str);	/* ‚RŒ…‚Ü‚Å */
+	printf("%8s\n",	 str);		/* ‰E‚É‹l‚ß */
+	printf("%-8s\n",	 str);	/* ¶‚É‹l‚ß */
+
+	return (0);
+}
