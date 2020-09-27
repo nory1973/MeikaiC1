@@ -2,11 +2,11 @@
 	読み込んだ整数値の符号を判定
 */
 
-#include  <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
-	int	 no;
+	int no;
 
 	printf("整数を入力してください：");
 	scanf("%d", &no);
@@ -16,8 +16,7 @@ int main(void)
 	else if (no > 0)
 		puts("その数は正です。");
 	else
-//	else if (no < 0)
 		puts("その数は負です。");
 
-	return (0);
+	return 0;
 }

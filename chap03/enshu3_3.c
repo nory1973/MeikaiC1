@@ -11,13 +11,11 @@ int main(void)
 	printf("整数を入力してください：");
 	scanf("%d", &no);
 
-	if (no == 0)
-		puts("その数は０です。");
-	else if (no > 0)
-		puts("その数は正です。");
+	if (no >= 0)
+		printf("絶対値は%dです。", no);
+
 	else
-//	else if (no < 0)
-		puts("その数は負です。");
+		printf("絶対値は%dです。", -no);
 
 	return (0);
 }
