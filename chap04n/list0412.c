@@ -1,5 +1,5 @@
 /*
-	読み込んだ整数の個数だけ＊を連続表示（for文）
+	読み込んだ正の整数の個数だけ＊を表示
 */
 
 #include <stdio.h>
@@ -8,7 +8,7 @@ int main(void)
 {
 	int i, no;
 
-	printf("正の整数：");
+	printf("?正の整数");
 	scanf("%d", &no);
 
 	for (i = 1; i <= no; i++)

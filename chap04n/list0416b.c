@@ -1,5 +1,6 @@
 /*
-	九九の表を表示（4を含む数に出会うとcontinue文を実行）
+	九九の表を表示
+	（4を含む数に出会うとcontinue文を実行）
 */
 
 #include <stdio.h>
@@ -17,8 +18,8 @@ int main(void)
 			}
 			printf("%3d", seki);
 		}
-		putchar('\n');		/* 改行 */
+		putchar('\n');
+	return 0;
+}		/* ???s */
 	}
 
-	return 0;
-}

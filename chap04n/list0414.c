@@ -8,7 +8,7 @@ int main(void)
 {
 	int i, n;
 
-	printf("®”’lF");
+	printf("?????l?F");
 	scanf("%d", &n);
 
 	for (i = 2; i <= n; i += 2)
